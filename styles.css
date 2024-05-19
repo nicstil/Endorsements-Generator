@@ -1,0 +1,96 @@
+html,
+body {
+  margin: 0;
+  padding: 0;
+  background: gray;
+  font-size: 10px;
+  text-align: center;
+}
+
+img {
+  height: 9em;
+  width: 9em;
+  margin-top: 4em;
+  margin-bottom: 2em;
+}
+
+#main {
+  background: #1b1924;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 390px;
+  margin: 30px auto;
+  border-radius: 1em;
+  border: 0.5em solid white;
+}
+
+h1 {
+  color: white;
+  font-size: 2.5em;
+}
+
+h2 {
+  color: white;
+  font-size: 2em;
+}
+
+textarea {
+  width: 80%;
+  background: #444059;
+  font-size: 1.2em;
+  color: white;
+  border-radius: 0.5em;
+  font-family: "Inter", sans-serif;
+  border: 0;
+}
+
+#endorsementsList {
+  width: 100%;
+  padding-bottom: 4em;
+}
+
+::placeholder {
+  color: #8f8f8f;
+  font-size: 1em;
+  font-family: "Inter", sans-serif;
+  padding-left: 0.5em;
+}
+
+#emptyText {
+  background: white;
+  color: red;
+  font-family: "Inter", sans-serif;
+  font-size: 1.5em;
+  width: 80%;
+  margin: 0 auto;
+  padding: 5px;
+}
+
+button {
+  width: 80%;
+  margin-top: 0;
+  background: #28a9f1;
+  font-size: 2.2em;
+  color: #04131c;
+  padding: 0.5em 0;
+  border-radius: 0.5em;
+  font-weight: bolder;
+}
+
+input[type="text"] {
+  background: #444059;
+  text-align: center;
+  width: 45%;
+  border: 0;
+  padding: 7px;
+  border-radius: 0.5em;
+}
+
+#fromToFields {
+  display: flex;
+  gap: 10px;
+  width: 80%;
+  justify-content: space-between;
+  margin: 5px 0;
+}
